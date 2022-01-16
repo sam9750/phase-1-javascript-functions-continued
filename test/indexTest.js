@@ -43,5 +43,11 @@ describe("index.js", () => {
       let emphatic = result("a dedicated programmer")
       expect(emphatic).to.equal("You are ||a dedicated programmer||!")
     });
+    it("an adjective in a highlight", function() {
+      let result = wrapAdjective("?")
+      let emphatic = result("a dedicated programmer")
+      expect(emphatic).to.equal("You are ?a dedicated programmer?!")
+    });
+
   })
 })
