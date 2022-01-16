@@ -22,9 +22,9 @@ function saturdayFun(activity=`roller-skate`) {
     // return function result(special){
     //     return 'You are *a hard worker*!'}}
 
-    function mondayWork(activity1=`go to the office`, activity2=`work from home`) {
+    // function mondayWork(activity1=`go to the office`, activity2=`work from home`) {
     
-        console.log (`This Monday, I will ${activity1}.`);
-        console.log (`This Monday, I will ${activity2}.`);
-      }
-    mondayWork(activity1, activity2)
+    //     console.log (`This Monday, I will ${activity1}.`);
+    //     console.log (`This Monday, I will ${activity2}.`);
+    //   }
+    // mondayWork(activity1, activity2)
